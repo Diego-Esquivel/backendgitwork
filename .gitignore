@@ -1,0 +1,15 @@
+main.obj
+.vscode/
+shopego/.vscode/
+shopego/Diego.png
+shopego/Space Invaders.jpg
+shopego/additem.cpp
+shopego/additem.exe
+shopego/additem.obj
+shopego/firsttemp.txt
+shopego/lasttemp.txt
+shopego/removeitem.cpp
+shopego/removeitem.exe
+shopego/removeitem.obj
+shopego/temp.txt
+temp.txt
