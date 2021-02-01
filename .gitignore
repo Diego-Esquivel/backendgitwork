@@ -1,5 +1,10 @@
 main.obj
 .vscode/
+chapitomusic/additem.cpp
+chapitomusic/additem.exe
+chapitomusic/additem.obj
+chapitomusic/removeitem.cpp
+chapitomusic/temp.txt
 shopego/.vscode/
 shopego/Diego.png
 shopego/Space Invaders.jpg
@@ -12,4 +17,10 @@ shopego/removeitem.cpp
 shopego/removeitem.exe
 shopego/removeitem.obj
 shopego/temp.txt
+shopego/index.html
+shopego/shopego.cpp
+shopego/shopego.exe
+shopego/shopego.obj
 temp.txt
+main.cpp
+main.exe
