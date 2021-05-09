@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="../yeet.css"/>
+    </head>
+    <body>
+        <div class="sidenav" id="sidenav" onclick="showSide()">
+            <div class="logo" id="logo"> </div>
+            <div class="side-conts" id="side-conts">
+              <ul style="list-style-type:none;">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../menu.html">Menu</a></li>
+                <li class="dropdown" onclick="showDrop()">Services
+                    <ul id="dropdown-conts" >
+                        <li><a href="aboutus.html">About Us</a></li>
+                    
+                    
+                        <li><a href="Diego-Esquivel.github.io/DemoWebsite/page3.html">Brick Breaker</a></li>
+                    </ul>
+                </li>
+              </ul>
+            </div>
+        </div>
+        <h1 name="idea">Project Plant Based Goods</h1>
+        <div class="content">
+            <h3>Item</h3>
+            <div><image alt="item"></image></div>
+            <main>
+                <p name="description">Description</p>
+                <h6 name="price">Price: $300</h6>
+                <h5 name="quanta"><label>Quant: </label><input type="range" id="slider" min="1" max="10"> <span id="quanta"></span></h5>
+                <button type="submit" id="AddtoCart" value="Add to Cart">Add To Cart</button>
+            </main>
+        </div>
+        <a href="../order/index.html"><footer>View Order&emsp;<image alt="CheckoutImg"></image></footer></a>
+        <script async src="index.js"></script>
+    </body>
+</html>
