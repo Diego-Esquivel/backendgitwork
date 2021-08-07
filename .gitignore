@@ -1,9 +1,9 @@
 .vscode/
-chapitomusic/additem.cpp
-chapitomusic/additem.exe
-chapitomusic/additem.obj
-chapitomusic/removeitem.cpp
-chapitomusic/temp.txt
+jgtradio/additem.cpp
+jgtradio/additem.exe
+jgtradio/additem.obj
+jgtradio/removeitem.cpp
+jgtradio/temp.txt
 shopego/.vscode/
 shopego/Diego.png
 shopego/Space Invaders.jpg
