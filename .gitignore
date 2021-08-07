@@ -1,4 +1,6 @@
 .vscode/
+jgtradiocopy/*
+jgtradiocopy
 jgtradio/additem.cpp
 jgtradio/additem.exe
 jgtradio/additem.obj
