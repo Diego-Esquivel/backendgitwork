@@ -29,9 +29,15 @@ class Table{
             int i = 0;
             while(teams[i].getName() != ""){
                 i++;
+                if(i >= 16)
+                    break;
             }
-            teams[i] = _team;
-            points[i] = 0;
+            if(i >= 16)
+                cout<<"league season full";
+            else {
+                teams[i] = _team;
+                points[i] = 0;
+            }
         }
         void addPoints(int index, int code){
             points[index] += code;
@@ -43,12 +49,13 @@ class Table{
         void dropPoints(int index, int code){
             points[index] -= code;
         }
-        void print(){
+        string to_print(){
             string output = "";
             for(int i = 0; i < 16; i++){
-                output += to_string(i) + "\t" + teams[i].getName() + "\t" + to_string(points[i]) + "\n";
-            }
+                output += to_string(i) + "\t" + teams[i].to_print() + "\t" + to_string(points[i]) + "\n";
+            }//right now the for loop prints teams in order they were added. Need to change it to print in points order decending
             cout << output;
+            return output;
         }
 };
 #endif
