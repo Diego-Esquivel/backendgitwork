@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HiTrail</title>
+	</head>
+	<body>
+		
+		<script type="text/javascript">
+			var element1 = document.createElement('iframe');
+			element1.setAttribute('id','anotherfile');
+			element1.setAttribute('src','anotherfile.html');
+			element1.setAttribute('name','theotherfile');
+			element1.setAttribute('style',"border:none;");
+			var desiredHeight = window.innerHeight*6 /10;
+			var desiredLength = window.innerWidth*10 /10;
+			element1.setAttribute('height',desiredHeight);
+			element1.setAttribute('width',desiredLength);
+			document.body.appendChild(element1);
+			element1.contentDocument.write("Potato");
+			document.write("This file");
+		</script>
+	</body>
+</html>
