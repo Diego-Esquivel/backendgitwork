@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My webpage!</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<link rel="stylesheet" href="styles/yeet.css" />
+	
+  </head>
+  <body>
+	
+	<div class="sidenav" id="sidenav" onclick="showSide()">
+	<div class="logo" id="logo"> </div>
+	<div class="side-conts" id="side-conts">
+	  <ul style="list-style-type:none;">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li class="dropdown" onclick="showDrop()">Services
+			<ul id="dropdown-conts" >
+				<li><a href="page2.html">Snake Game</a></li>
+			
+			
+				<li><a href="page1.html">Page2</a></li>
+			
+			
+				<li><a href="page3.html">Brick Breaker</a></li>
+				
+				
+				<li><a href="page4.htm">Veggi Jeu</a></li>
+			</ul>
+		</li>
+		
+		<li><a href="pricing.html">Pricing</a></li>
+		<li><a href="content.html">Contact</a></li>
+		<li><a href="blog.html">Blog</a></li>
+	  </ul>
+	</div>
+    </div>
+	<div class="nav" id="nav">
+	<ul>
+		<li><a class="active" href="index.html">Home</a></li>
+		<li><a href="page2.html">News</a></li>
+		<li><a href="page1.html">Contact</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="page4.htm">New Game</a></li>
+	</ul>
+	</div>
+	
+	<div class="header">
+		<h1>Hello, World!</h1>
+		<h4 id='date'></h4>
+	</div>
+	<div class="row">
+	<div class="main">
+	<div class="slideshow-cont">
+	<div class="image-section fade">
+      <!--<div class="section-style">-->
+	  <div class="numbertext">1/4</div>
+        <img src="art.png" >
+        <p>A random image courtesy of unsplash.com.</p>
+      <!--</div>-->
+	</div>
+	<div class="image-section fade">
+		<!--<div class="section-style">-->
+		<div class="numbertext">2/4</div>
+        <img src="https://source.unsplash.com/random/400x200" >
+        <p>A random image courtesy of unsplash.com.</p>
+      <!--</div>-->
+    </div>
+	
+	<div class="image-section fade">
+		<!--<div class="section-style">-->
+		<div class="numbertext">3/4</div>
+        <img src="out.png" >
+        <p>A random image courtesy of unsplash.com.</p>
+      <!--</div>-->
+    </div>
+
+    <div class="image-section fade">
+		<!--<div class="section-style">-->
+		<div class="numbertext">4/4</div>
+        <img src="https://source.unsplash.com/random/400x200" >
+        <p>A random image courtesy of unsplash.com.</p>
+      <!--</div>-->
+    </div>
+		<!-- Next and previous buttons -->
+		<a class="prev" id="prev">&#10094;</a>
+		<a class="next" id="next">&#10095;</a>
+
+    </div>	
+	<br>
+
+	</div>
+			<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" id="dot1" onclick="inc=1"></span>
+  <span class="dot" id="dot2" onclick="inc=2"></span>
+  <span class="dot" id="dot3" onclick="inc=3"></span>
+  <span class="dot" id="dot4" onclick="inc=4"></span>
+</div>
+	</div>
+	
+	<div class="footer">
+		<p>Hello. Do you want to view <a href="page2.html">snake game</a> ?</p>
+		<p>Hello. Do you want to view <a href="page1.html">page 2</a> ?</p>
+		<p>Hello. Do you want to view <a href="page3.html">Brick Game</a> ?</p>
+		<p>Hello. Do you want to view <a href="page4.htm">Veggi Jeu</a> ?</p>
+	</div>
+	<script async src="./javascript/index.js"></script>
+  </body>
+  
+</html>
